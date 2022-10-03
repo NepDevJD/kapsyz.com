@@ -21,3 +21,11 @@
         var Asel = 4;
     }
 } */
+
+
+function expand(){
+    document.querySelector("#openM").style.display = 'none';
+    document.querySelector(".navButtonsM").style.animation = "open 600ms forwards";
+    document.getElementById("ButtonsM1").style.display = "flex";
+    document.getElementById("ButtonsM1").style.animation = "options 800ms forwards";
+}
